@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Light\ Pink\ Aura\ Computer\ Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@keyframes fade-inout {
+    
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.box{
+    height: 100vh;
+    filter: drop-shadow(0 0 6px gray);
+    margin-right: 10px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    animation: fade-inout 2s;
+}
+
+.content{
+    position: relative;
+    background: white;
+    border-radius: 40px;
+    color: #363c5f;
+    padding: 40px;
+    width: 220px;
+    clip-path: polygon(0 0, calc(100% - 70px) 0, 100% 70px, 100% 100%, 0 100%);
+}
+
+.content::after{
+    display: flex;
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #e1e1f2;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 50px;
+
+}
+
+.sasha2{
+    width: 100%;
+    animation: fade-inout 3s;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.h2{
+    font-family: "Pacifico", cursive;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    text-shadow: 5px 3px 5px gray;
+    animation: fade-inout 2s;
+}
+
+.containertop{
+    border: 2px #ffb8bf solid;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    background-color:azure;
+    animation: fade-inout 1.5s;
+}
+
+.p1{
+    text-shadow: 5px 5px 5px silver ;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    animation: fade-inout 3s;
+}
+
+.firstcontainer{
+    display: flex;
+    justify-content: center;
+    animation: fade-inout 2.5s;
+}
+
+
+.firstcontainer2{
+    display: flex;
+    justify-content: center;
+    animation: fade-inout 3s;
+}
+
+
+.firstcontainer3{
+    display: flex;
+    justify-content: center;
+    animation: fade-inout 3.5s;
+}
+
+
+.firstcontainer4{
+    display: flex;
+    justify-content: center;
+    animation: fade-inout 4s;
+}
+
+
+.firstcontainer5{
+    display: flex;
+    justify-content: center;
+    animation: fade-inout 4.5s;
+}
+
+.play1{
+    width: 300px;
+    margin-left: -40px;
+    animation: fade-inout 5s;
+}
+
+.h3{
+    font-family: "Pacifico", cursive;
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+    font-weight: lighter;
+    animation: fade-inout 5.5s;
+}
+
+.p2{
+    font-family: "Caveat", cursive;
+    font-size: 15px;
+    animation: fade-inout 5s;
+}
+
+.p3{
+    font-family: "Indie-Flower", cursive;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    animation: fade-inout 5s;
+    margin-left: 950px;
+}

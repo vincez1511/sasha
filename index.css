@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(aura\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 110%;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -60px;
+}
+
+.imgcontainer{
+    width: 30%;
+}
+
+.container2{
+    border: 2px #ffb8bf solid;
+    box-shadow: 10px 5px 10px silver;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
+.h3{
+    font-family: "Pacifico", cursive;
+    font-weight: lighter;
+    font-size: 23px;
+    color: #ffb8bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 3px 5px gray;
+}
+
+.hr1{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-shadow: 2px 2px 2px #ffb8bf;
+}
+
+.p1{
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #ffb8bf;
+}
+
+.a1{
+    text-decoration: none;
+    font-family: "Indie Flower", cursive;
+    color: black;
+    display: flex;
+    font-weight: bold;
+    margin-left: 350px;
+}

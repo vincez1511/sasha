@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pinkgreen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+
+.box{
+    filter: drop-shadow(0 0 6px gray);
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    color: black;
+}
+
+.content{
+    position: relative;
+    background: white;
+    border-radius: 40px;
+    color: #363c5f;
+    padding: 40px;
+    width: 220px;
+    clip-path: polygon(0 0, calc(100% - 70px) 0, 100% 70px, 100% 100%, 0 100%);
+}
+
+.content::after{
+    display: flex;
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: pink;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 50px;
+
+}
+
+
+.sasha2{
+    width: 100%;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+
+P{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-shadow: 3px 3px 3px gray;
+    margin-bottom: 170px;
+}
+
+.h41{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px gray;
+}
+
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box1{
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.back{
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}

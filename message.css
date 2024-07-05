@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pink2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 3px #ffb8bf solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.teddy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    font-weight: lighter;
+    color: #aa336a;
+    text-shadow: 3px 2px 2px gray;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
